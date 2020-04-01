@@ -10,7 +10,7 @@ module.exports = {
         filename: 'bundle.js'
     },
     devServer: {
-        contentBase: './dist',
+        contentBase: './',
         watchContentBase: true
     },
     mode: 'development',
