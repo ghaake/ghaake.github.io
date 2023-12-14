@@ -40,7 +40,7 @@ function buildProjectList(project) {
                         <li>Last Update: ${project.updated_at}</li>
                     </ul>
                     
-                    <a href="${project.html_url}" class="card-link">
+                    <a href="${project.homepage ? project.homepage : project.html_url}" class="card-link">
                         <i class="fas fa-external-link-alt shift-left"></i>Open Project
                     </a>
                 </div>
