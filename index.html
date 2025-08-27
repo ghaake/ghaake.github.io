@@ -5,20 +5,17 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Simple Web Tools</h1>
-    </header>
-
     <div class="container">
-        <a class="link" href="https://ghaake.github.io/ics-to-all-day/">ICS All Day Converter</a>
-        <p>Easily convert events in your ICS files to all-day events. </p>
+        <h1>Webtools</h1>
+        <a class="link" href="https://ghaake.github.io/ics-to-all-day/">ICS File Converter</a>
+        <a class="link" href="https://ghaake.github.io/key-gen/">Random Key Generator</a>
+        <p>Tools run entirely within your Browser and do not require any server connection.</p>
     </div>
 
     <footer>
-        <p>&copy; <span id="currentYear"></span> - ghaake -  <a class="footer-link" href="https://github.com/ghaake">GitHub</a></p>
+        <p>&copy; <span id="currentYear"></span> - Built by <a href="https://gerrithaake.de">Gerrit Haake</a> — Source on <a href="https://github.com/ghaake">GitHub</a>
     </footer>
 
-    <script src="script.js"></script>
     <script>
         document.getElementById('currentYear').textContent = new Date().getFullYear();
     </script>
